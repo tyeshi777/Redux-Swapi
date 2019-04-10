@@ -31,8 +31,7 @@ export const charsReducer = (state = initialState, action) => {
       return {
         ...state,
         isFetching: false,
-        error: "bummer!!",
-        characters: []
+        error: "bummer!!"
       };
     default:
       return state;
